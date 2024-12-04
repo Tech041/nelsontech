@@ -37,9 +37,9 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          A skilled Front End Developer who specialized in developing modern and dynamic websites.
+            A skilled Front End Developer who specialized in developing modern
+            and dynamic websites.
           </p>
-          
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}

@@ -62,7 +62,7 @@ const TAB_DATA = [
         </p>
         <hr className="my-10" />
         <h1 className="text-purple-500 text-2xl ">Upwork [2018 to current]</h1>
-        <h2 className=""> Role: Front End Developer</h2>
+        <h2 className=""> Role: MERN stack Developer</h2>
         <p className="">
           Developed and maintained various modules of a complex web application,
           employing React.js/Next.js and TypeScript for the frontend and
