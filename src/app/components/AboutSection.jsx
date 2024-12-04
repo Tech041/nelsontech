@@ -56,7 +56,7 @@ const TAB_DATA = [
           pixel-perfect, responsive interfaces, ensuring a consistent and
           visually appealing user experience across devices. Implemented
           server-side rendering (SSR) and static site generation (SSG) using
-          Next.js, enhancing the application&paos;s performance and SEO
+          Next.js, enhancing the application&apos;s performance and SEO
           capabilities&apos;, Implementing responsive design and ensuring
           cross-browser compatibility
         </p>
