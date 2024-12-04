@@ -106,7 +106,7 @@ const AboutSection = () => {
             player and I am excited to work with others to create amazing
             applications.
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          <div className="flex flex-row justify-start flex-wrap mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
