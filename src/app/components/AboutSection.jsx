@@ -10,9 +10,10 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Node.js</li>
-        <li>Express</li>
+        <li>Express.js</li>
         <li>Hooks</li>
         <li>JavaScript</li>
+        <li>React</li>
         <li>Next.js</li>
         <li>TypeScript</li>
         <li>React Query</li>
@@ -29,7 +30,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Klicks Institute of Computer and ICT studies</li>
+        <li>Klick Institute of Computers and ICT studies</li>
         <li>Nnamdi Azikiwe University </li>
       </ul>
     ),
