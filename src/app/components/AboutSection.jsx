@@ -66,7 +66,7 @@ const TAB_DATA = [
         <p className="">
           Developed and maintained various modules of a complex web application,
           employing React.js/Next.js and TypeScript for the frontend and
-          consumed .Net, Django, Spring Boot and REST APIs, Integrated
+          consumed .Net, Django, Spring Boot and REST APIs , Integrated
           third-party APIs and services to extend application functionalities,
           improving the overall user experience.
         </p>
@@ -77,7 +77,7 @@ const TAB_DATA = [
 
 const AboutSection = () => {
   const [tab, setTab] = useState("skills");
-  const [startTransition] = useTransition();
+  const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
     startTransition(() => {
