@@ -44,6 +44,35 @@ const TAB_DATA = [
       </ul>
     ),
   },
+  {
+    title: "Experience",
+    id: "experience",
+    content: (
+      <div className="list-disc pl-2">
+        <h1 className="text-purple-500 text-2xl ">Fiverr [2018 to current]</h1>
+        <h2 className=""> Role: Front End Developer</h2>
+        <p className="">
+          Collaborated with UX/UI designers to translate design mockups into
+          pixel-perfect, responsive interfaces, ensuring a consistent and
+          visually appealing user experience across devices. Implemented
+          server-side rendering (SSR) and static site generation (SSG) using
+          Next.js, enhancing the application&paos;s performance and SEO
+          capabilities&apos;, Implementing responsive design and ensuring
+          cross-browser compatibility
+        </p>
+        <hr className="my-10" />
+        <h1 className="text-purple-500 text-2xl ">Upwork [2018 to current]</h1>
+        <h2 className=""> Role: Front End Developer</h2>
+        <p className="">
+          Developed and maintained various modules of a complex web application,
+          employing React.js/Next.js and TypeScript for the frontend and
+          consumed .Net, Django, Spring Boot and REST APIs ", Integrated
+          third-party APIs and services to extend application functionalities,
+          improving the overall user experience.
+        </p>
+      </div>
+    ),
+  },
 ];
 
 const AboutSection = () => {
@@ -98,6 +127,13 @@ const AboutSection = () => {
             >
               {" "}
               Certifications{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("experience")}
+              active={tab === "experience"}
+            >
+              {" "}
+              Experience{" "}
             </TabButton>
           </div>
           <div className="mt-8">
