@@ -8,7 +8,7 @@ const projectsData = [
     id: 1,
     title: "E-Shop",
     description:
-      "E-Shop is an ecommerce web application that enables users to buy different electronic devices such as phones, laptops, watch, headphones e.t.c at their comfort of their homes",
+      "E-Shop is an ecommerce web application that enables users to buy different electronic devices such as phones, laptops, watch, headphones e.t.c at the comfort of their homes",
     image: "/images/projects/eshop.png",
     tag: ["All", "Web"],
     gitUrl: "https://just-electronics.onrender.com/",
