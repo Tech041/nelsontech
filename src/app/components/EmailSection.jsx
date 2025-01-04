@@ -1,5 +1,7 @@
 "use client";
-
+import Link from "next/link";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { FaPhone } from "react-icons/fa6";
 const handleSubmit = (e) => {
   e.preventDefault();
 };
@@ -20,6 +22,20 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
+        <div className="h-auto mt-8 py-10 ">
+          <div className="flex items-center gap-4">
+            <span className="">
+              <IoLogoWhatsapp color="green" size={40} />
+            </span>
+            <Link href="https://wa.link/ogqrbb" className="text-white">Send message</Link>
+          </div>
+          <div className="flex items-center gap-4 mt-8">
+            <span className="">
+            <FaPhone color="white" size={30} />
+            </span>
+            <span className="text-white">+2349025942555</span>
+          </div>
+        </div>
       </div>
       <div>
         <form className="flex flex-col" onSubmit={handleSubmit}>
