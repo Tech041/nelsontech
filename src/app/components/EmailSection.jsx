@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 const handleSubmit = (e) => {
   e.preventDefault();
 };
@@ -25,13 +26,21 @@ const EmailSection = () => {
         <div className="h-auto mt-8 py-10 ">
           <div className="flex items-center gap-4">
             <span className="">
-              <IoLogoWhatsapp color="green" size={40} />
+              <IoLogoWhatsapp color="green" size={30} />
             </span>
-            <Link href="https://wa.link/ogqrbb" className="text-white">Send message</Link>
+            <Link href="https://wa.link/ogqrbb" className="text-white">
+              Click to Send me message
+            </Link>
+          </div>
+          <div className="my-8 flex items-center gap-4">
+            <span className="">
+            <MdEmail size={30} color="white" />
+            </span>
+            <span className="text-white">chinwubanelson@gmail.com</span>
           </div>
           <div className="flex items-center gap-4 mt-8">
             <span className="">
-            <FaPhone color="white" size={30} />
+              <FaPhone color="white" size={30} />
             </span>
             <span className="text-white">+2349025942555</span>
           </div>
