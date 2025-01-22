@@ -6,13 +6,14 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "E-Shop",
+    title: "FashionFix",
     description:
-      "E-Shop is an ecommerce web application that enables users to buy different electronic devices such as phones, laptops, watch, headphones e.t.c at the comfort of their homes",
-    image: "/images/projects/eshop.png",
+      "Your e-commerce shop for trendy and timeless unisex fashion. From stylish men's and women's clothing to adorable and durable kids' wear, FashionFix offers a curated collection for all ages and preferences.",
+    image: "/images/projects/fashionfix.png",
     tag: ["All", "Web"],
-    gitUrl: "https://just-electronics.onrender.com/",
+    gitUrl: "https://fashionfix.vercel.app/",
   },
+
   {
     id: 2,
     title: "Nelfix",
@@ -22,17 +23,9 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://nelfixmovies.vercel.app/",
   },
+
   {
     id: 3,
-    title: "FashionFix",
-    description:
-      "Your e-commerce shop for trendy and timeless unisex fashion. From stylish men's and women's clothing to adorable and durable kids' wear, FashionFix offers a curated collection for all ages and preferences.",
-    image: "/images/projects/fashionfix.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://fashionfix.vercel.app/",
-  },
-  {
-    id: 4,
     title: "FitPulse",
     description:
       "FitPulse is a a modern UI/UX gym website where clients can book sessions, chat real time with admin or gym instructors and also choose type of services they want.",
@@ -41,7 +34,7 @@ const projectsData = [
     gitUrl: "https://myfitnesspulse.vercel.app/",
   },
   {
-    id: 5,
+    id: 4,
     title: "MedSpark",
     description:
       "This is a SaaS project,powered by google Gemini API. Clients can seek automated health care support at the comfort of their homes using their devices.The application performs diagnosis with prevailing symptoms, recommends quick treatment plans and other automated health tasks.",
