@@ -44,10 +44,10 @@ const projectsData = [
     id: 5,
     title: "MedSpark",
     description:
-      "This is a SaaS project, where clients can seek automated health care support at the comfort of their homes using their devices.The application performs diagnosis with prevailing symptoms, recommends quick treatment plans and other automated health tasks.",
+      "This is a SaaS project,powered by google Gemini API. Clients can seek automated health care support at the comfort of their homes using their devices.The application performs diagnosis with prevailing symptoms, recommends quick treatment plans and other automated health tasks.",
     image: "/images/projects/ai_clinic.png",
     tag: ["All", "Mobile"],
-    gitUrl: "https://medsparkautoclinic.vercel.app/",
+    gitUrl: "https://medspark-clinic.vercel.app/",
   },
 ];
 
@@ -74,9 +74,7 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-       
-      </div>
+      <div className="text-white flex flex-row justify-center items-center gap-2 py-6"></div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
