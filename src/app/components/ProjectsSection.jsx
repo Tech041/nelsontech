@@ -6,6 +6,15 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "E-SHOP",
+    description:
+      "Your number one ecommerce website for all kinds of electronic gadgets ranging from phones, laptops to wrist watches.",
+    image: "/images/projects/e_shop.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://just-electronics.onrender.com/",
+  },
+  {
+    id: 2,
     title: "FashionFix",
     description:
       "Your e-commerce shop for trendy and timeless unisex fashion. From stylish men's and women's clothing to adorable and durable kids' wear, FashionFix offers a curated collection for all ages and preferences.",
@@ -15,7 +24,7 @@ const projectsData = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Nelfix",
     description:
       "Explore the ultimate movie destination! Powered by the TMDB API, this website offers an extensive library of movies and TV shows, complete with detailed information, trailers, reviews, and ratings.",
@@ -25,7 +34,7 @@ const projectsData = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "FitPulse",
     description:
       "FitPulse is a a modern UI/UX gym website where clients can book sessions, chat real time with admin or gym instructors and also choose type of services they want.",
@@ -34,7 +43,7 @@ const projectsData = [
     gitUrl: "https://myfitnesspulse.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "MedSpark",
     description:
       "This is a SaaS project,powered by google Gemini API. Clients can seek automated health care support at the comfort of their homes using their devices.The application performs diagnosis with prevailing symptoms, recommends quick treatment plans and other automated health tasks.",
