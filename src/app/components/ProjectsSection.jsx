@@ -35,6 +35,15 @@ const projectsData = [
 
   {
     id: 4,
+    title: "Neldemy-LMS",
+    description:
+      "This is a learning managemnet system where students can enrol, buy courses and have  direct access to the course instructors/educators.",
+    image: "/images/neldemy.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://neldemy-lms.vercel.app/",
+  },
+  {
+    id: 5,
     title: "FitPulse",
     description:
       "FitPulse is a a modern UI/UX gym website where clients can book sessions, chat real time with admin or gym instructors and also choose type of services they want.",
@@ -43,7 +52,7 @@ const projectsData = [
     gitUrl: "https://myfitnesspulse.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "MedSpark",
     description:
       "This is a SaaS project,powered by google Gemini API. Clients can seek automated health care support at the comfort of their homes using their devices.The application performs diagnosis with prevailing symptoms, recommends quick treatment plans and other automated health tasks.",
