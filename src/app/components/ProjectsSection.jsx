@@ -6,21 +6,22 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Nelpharma",
+    description:
+      "A comprehensive and fullstack e-commerce application for pharmaceutical products with admin panel.",
+    image: "/images/nelpharma.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://nelpharmaceuticals.vercel.app/",
+  },
+
+  {
+    id: 2,
     title: "E-SHOP",
     description:
       "Your number one ecommerce website for all kinds of electronic gadgets ranging from phones, laptops to wrist watches.",
     image: "/images/projects/e_shop.png",
     tag: ["All", "Web"],
     gitUrl: "https://just-electronics.onrender.com/",
-  },
-  {
-    id: 2,
-    title: "FashionFix",
-    description:
-      "Your e-commerce shop for trendy and timeless unisex fashion. From stylish men's and women's clothing to adorable and durable kids' wear, FashionFix offers a curated collection for all ages and preferences.",
-    image: "/images/projects/fashionfix.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://fashionfix.vercel.app/",
   },
 
   {
@@ -37,7 +38,7 @@ const projectsData = [
     id: 4,
     title: "Neldemy-LMS",
     description:
-      "This is a learning managemnet system where students can enrol, buy courses and have  direct access to the course instructors/educators.",
+      "This is a learning management system where students can enroll, buy courses and have  direct access to the course instructors/educators.",
     image: "/images/neldemy.png",
     tag: ["All", "Web"],
     gitUrl: "https://neldemy-lms.vercel.app/",
