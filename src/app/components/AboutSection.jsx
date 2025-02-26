@@ -50,6 +50,14 @@ const TAB_DATA = [
     id: "experience",
     content: (
       <div className="list-disc pl-2">
+        <h1 className="text-purple-500 text-2xl ">
+          Klicks Communications [2020 to current]
+        </h1>
+        <h2 className=""> Role: React/Node js Developer </h2>
+        <p className="">
+          Develop responsive and dynamic web applications using React.js,
+          Next.js, JavaScript/TypeScript, Express js. and Node.js.
+        </p>
         <h1 className="text-purple-500 text-2xl ">Fiverr [2018 to current]</h1>
         <h2 className=""> Role: Front End Developer</h2>
         <p className="">
