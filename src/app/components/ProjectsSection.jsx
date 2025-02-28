@@ -12,6 +12,14 @@ const projectsData = [
     image: "/images/nelpharma.png",
     tag: ["All", "Web"],
     gitUrl: "https://nelpharmaceuticals.vercel.app/",
+    stack: [
+      "Reactjs",
+      "Tailwind CSS",
+      "Nodejs,",
+      "Expressjs",
+      "Cloudinary",
+      "MongoDB",
+    ],
   },
 
   {
@@ -22,6 +30,15 @@ const projectsData = [
     image: "/images/projects/e_shop.png",
     tag: ["All", "Web"],
     gitUrl: "https://just-electronics.onrender.com/",
+    stack: [
+      "Reactjs",
+      "Tailwind CSS",
+      "Redux",
+      "Nodejs,",
+      "Expressjs",
+      "Cloudinary",
+      "MongoDB",
+    ],
   },
 
   {
@@ -32,6 +49,7 @@ const projectsData = [
     image: "/images/nelfix.png",
     tag: ["All", "Web"],
     gitUrl: "https://nelfixmovies.vercel.app/",
+    stack: ["Nextjs", "Tailwind CSS", "TMDB API"],
   },
 
   {
@@ -42,6 +60,14 @@ const projectsData = [
     image: "/images/neldemy.png",
     tag: ["All", "Web"],
     gitUrl: "https://neldemy-lms.vercel.app/",
+    stack: [
+      "Reactjs",
+      "Tailwind CSS",
+      "Nodejs,",
+      "Expressjs",
+      "Cloudinary",
+      "MongoDB",
+    ],
   },
   {
     id: 5,
@@ -51,6 +77,7 @@ const projectsData = [
     image: "/images/projects/fitpulse.png",
     tag: ["All", "Web"],
     gitUrl: "https://myfitnesspulse.vercel.app/",
+    stack: ["Reactjs", "Tailwind CSS"],
   },
   {
     id: 6,
@@ -60,6 +87,7 @@ const projectsData = [
     image: "/images/projects/ai_clinic.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://medspark-clinic.vercel.app/",
+    stack: ["Reactjs", "Tailwind CSS", "Google Gemini API"],
   },
 ];
 
@@ -102,6 +130,7 @@ const ProjectsSection = () => {
               description={project.description}
               imgUrl={project.image}
               gitUrl={project.gitUrl}
+              stack={project.stack}
             />
           </motion.li>
         ))}
