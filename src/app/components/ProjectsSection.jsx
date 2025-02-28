@@ -34,7 +34,7 @@ const projectsData = [
       "Reactjs",
       "Tailwind CSS",
       "Redux",
-      "Nodejs,",
+      "Nodejs",
       "Expressjs",
       "Cloudinary",
       "MongoDB",
