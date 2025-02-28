@@ -15,7 +15,7 @@ const projectsData = [
     stack: [
       "Reactjs",
       "Tailwind CSS",
-      "Nodejs,",
+      "Nodejs",
       "Expressjs",
       "Cloudinary",
       "MongoDB",
@@ -63,7 +63,7 @@ const projectsData = [
     stack: [
       "Reactjs",
       "Tailwind CSS",
-      "Nodejs,",
+      "Nodejs",
       "Expressjs",
       "Cloudinary",
       "MongoDB",
