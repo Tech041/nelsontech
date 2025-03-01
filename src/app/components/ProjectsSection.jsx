@@ -14,6 +14,7 @@ const projectsData = [
     gitUrl: "https://nelpharmaceuticals.vercel.app/",
     stack: [
       "Reactjs",
+      "JavaScript",
       "Tailwind CSS",
       "Nodejs",
       "Expressjs",
@@ -32,6 +33,7 @@ const projectsData = [
     gitUrl: "https://just-electronics.onrender.com/",
     stack: [
       "Reactjs",
+      "TypeScript",
       "Tailwind CSS",
       "Redux",
       "Nodejs",
@@ -49,7 +51,7 @@ const projectsData = [
     image: "/images/nelfix.png",
     tag: ["All", "Web"],
     gitUrl: "https://nelfixmovies.vercel.app/",
-    stack: ["Nextjs", "Tailwind CSS", "TMDB API"],
+    stack: ["Nextjs","JavaScript", "Tailwind CSS", "TMDB API"],
   },
 
   {
@@ -62,6 +64,7 @@ const projectsData = [
     gitUrl: "https://neldemy-lms.vercel.app/",
     stack: [
       "Reactjs",
+      "JavaScript",
       "Tailwind CSS",
       "Nodejs",
       "Expressjs",
@@ -77,7 +80,7 @@ const projectsData = [
     image: "/images/projects/fitpulse.png",
     tag: ["All", "Web"],
     gitUrl: "https://myfitnesspulse.vercel.app/",
-    stack: ["Reactjs", "Tailwind CSS"],
+    stack: ["Reactjs","JavaScript", "Tailwind CSS"],
   },
   {
     id: 6,
@@ -87,7 +90,7 @@ const projectsData = [
     image: "/images/projects/ai_clinic.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://medspark-clinic.vercel.app/",
-    stack: ["Reactjs", "Tailwind CSS", "Google Gemini API"],
+    stack: ["Reactjs","JavaScript", "Tailwind CSS", "Google Gemini API"],
   },
 ];
 
