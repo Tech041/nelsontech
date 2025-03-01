@@ -25,14 +25,9 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, stack }) => {
         <h5 className="text-xl font-semibold mb-2">{title}</h5>
         <p className="text-[#ADB7BE]">{description}</p>
         <p className="text-orange-700 flex  flex-wrap gap-1">
-          <span className=" px-2 py-1 rounded-md">{stack[0]}</span>
-          <span className=" px-2 py-1 rounded-md">{stack[1]}</span>
-          <span className=" px-2 py-1 rounded-md">{stack[2]}</span>
-          <span className=" px-2 py-1 rounded-md">{stack[3]}</span>
-          <span className=" px-2 py-1 rounded-md">{stack[4]}</span>
-          <span className=" px-2 py-1 rounded-md">{stack[5]}</span>
-          <span className=" px-2 py-1 rounded-md">{stack[6]}</span>
-          <span className=" px-2 py-1 rounded-md">{stack[7]}</span>
+          {stack.map((item,index)=>(
+            <span key={index} className="px-2 py-1 rounded-md">{item}</span>
+          ))}
         </p>
       </div>
     </div>
