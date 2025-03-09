@@ -66,7 +66,9 @@ const TAB_DATA = [
         <p className="">
           Developed and maintained various modules of complex web applications,
           employing React.js/Next.js and TypeScript and consuming .Net, Django,
-          Spring Boot and REST APIs. • Integrated third
+          Spring Boot and REST APIs. • Integrated third-party APIs and services
+          to extend application functionalities, improving the overall user
+          experience.
         </p>
         <hr className="my-10" />
         <h1 className="text-purple-500 text-2xl ">Upwork [2023 to current]</h1>
@@ -74,7 +76,9 @@ const TAB_DATA = [
         <p className="">
           Developed and maintained various modules of complex web applications,
           employing React.js/Next.js and TypeScript and consuming .Net, Django,
-          Spring Boot and REST APIs. • Integrated third
+          Spring Boot and REST APIs. • Integrated third-party APIs and services
+          to extend application functionalities, improving the overall user
+          experience.
         </p>
         <hr className="my-10" />
         <h1 className="text-purple-500 text-2xl ">Megabon [2023 to current]</h1>
