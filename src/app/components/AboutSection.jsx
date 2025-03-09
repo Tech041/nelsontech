@@ -51,27 +51,34 @@ const TAB_DATA = [
     content: (
       <div className="list-disc pl-2">
         <h1 className="text-purple-500 text-2xl ">
-          Klicks Communications [2020 to current]
+          Klicks Communications [2023 to current]
         </h1>
-        <h2 className=""> Role: React/Node js Developer </h2>
+        <h2 className=""> Role: React Developer </h2>
         <p className="">
-          Develop responsive and dynamic web applications using React.js,
-          Next.js, JavaScript/TypeScript, Express js. and Node.js.
-        </p>
-        <h1 className="text-purple-500 text-2xl ">Fiverr [2018 to current]</h1>
-        <h2 className=""> Role: Front End Developer</h2>
-        <p className="">
-          Collaborated with UX/UI designers to translate design mockups into
-          pixel-perfect, responsive interfaces, ensuring a consistent and
-          visually appealing user experience across devices. Implemented
-          server-side rendering (SSR) and static site generation (SSG) using
-          Next.js, enhancing the application&apos;s performance and SEO
-          capabilities&apos;, Implementing responsive design and ensuring
-          cross-browser compatibility
+          Develop scalable, responsive and dynamic web applications using React,
+          Next.js, JavaScript, TypeScript and Tailwind CSS. Use Redux and
+          Context API for global state management. • Integrate REST APIs and
+          other third-party services.
         </p>
         <hr className="my-10" />
-        <h1 className="text-purple-500 text-2xl ">Upwork [2018 to current]</h1>
-        <h2 className=""> Role: MERN stack Developer</h2>
+        <h1 className="text-purple-500 text-2xl ">Fiverr [2023 to current]</h1>
+        <h2 className=""> Role: Front End Developer</h2>
+        <p className="">
+          Developed and maintained various modules of complex web applications,
+          employing React.js/Next.js and TypeScript and consuming .Net, Django,
+          Spring Boot and REST APIs. • Integrated third
+        </p>
+        <hr className="my-10" />
+        <h1 className="text-purple-500 text-2xl ">Upwork [2023 to current]</h1>
+        <h2 className=""> Role: Front end Developer</h2>
+        <p className="">
+          Developed and maintained various modules of complex web applications,
+          employing React.js/Next.js and TypeScript and consuming .Net, Django,
+          Spring Boot and REST APIs. • Integrated third
+        </p>
+        <hr className="my-10" />
+        <h1 className="text-purple-500 text-2xl ">Megabon [2023 to current]</h1>
+        <h2 className=""> Role: Intern Developer</h2>
         <p className="">
           Developed and maintained various modules of a complex web application,
           employing React.js/Next.js and TypeScript for the frontend and
