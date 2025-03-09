@@ -81,7 +81,7 @@ const TAB_DATA = [
           experience.
         </p>
         <hr className="my-10" />
-        <h1 className="text-purple-500 text-2xl ">Megabon [2023 to current]</h1>
+        <h1 className="text-purple-500 text-2xl ">Megabon [2022]</h1>
         <h2 className=""> Role: Intern Developer</h2>
         <p className="">
           Developed and maintained various modules of a complex web application,
