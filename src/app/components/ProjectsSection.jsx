@@ -8,7 +8,7 @@ const projectsData = [
     id: 1,
     title: "Nelpharma",
     description:
-      "A comprehensive and fullstack e-commerce application for pharmaceutical products with admin panel.",
+      "A comprehensive and fullstack e-commerce application for pharmaceutical products with admin dashboard.",
     image: "/images/nelpharma.png",
     tag: ["All", "Web"],
     gitUrl: "https://nelpharmaceuticals.vercel.app/",
@@ -27,7 +27,7 @@ const projectsData = [
     id: 2,
     title: "E-SHOP",
     description:
-      "Your number one ecommerce website for all kinds of electronic gadgets ranging from phones, laptops to wrist watches.",
+      "Full stack e-commerce application for all kinds of electronic gadgets ranging from phones, laptops to wrist watches.",
     image: "/images/projects/e_shop.png",
     tag: ["All", "Web"],
     gitUrl: "https://just-electronics.onrender.com/",
@@ -51,14 +51,14 @@ const projectsData = [
     image: "/images/nelfix.png",
     tag: ["All", "Web"],
     gitUrl: "https://nelfixmovies.vercel.app/",
-    stack: ["Nextjs","JavaScript", "Tailwind CSS", "TMDB API"],
+    stack: ["Nextjs", "JavaScript", "Tailwind CSS", "TMDB API"],
   },
 
   {
     id: 4,
     title: "Neldemy-LMS",
     description:
-      "This is a learning management system where students can enroll, buy courses and have  direct access to the course instructors/educators.",
+      "Learning management system where students can enroll, buy courses and have  direct access to the course instructors/educators.",
     image: "/images/neldemy.png",
     tag: ["All", "Web"],
     gitUrl: "https://neldemy-lms.vercel.app/",
@@ -76,21 +76,35 @@ const projectsData = [
     id: 5,
     title: "FitPulse",
     description:
-      "FitPulse is a a modern UI/UX gym website where clients can book sessions, chat real time with admin or gym instructors and also choose type of services they want.",
+      "FitPulse, a modern  gym UI  where clients can book sessions, chat real time with admin or gym instructors and also choose type of services they want.",
     image: "/images/projects/fitpulse.png",
     tag: ["All", "Web"],
     gitUrl: "https://myfitnesspulse.vercel.app/",
-    stack: ["Reactjs","JavaScript", "Tailwind CSS"],
+    stack: ["Reactjs", "JavaScript", "Tailwind CSS"],
   },
   {
     id: 6,
     title: "MedSpark",
     description:
-      "This is a SaaS project,powered by google Gemini API. Clients can seek automated health care support at the comfort of their homes using their devices.The application performs diagnosis with prevailing symptoms, recommends quick treatment plans and other automated health tasks.",
+      "SaaS UI, severless but powered by google Gemini AI. Clients can seek automated health care support at the comfort of their homes using their devices.The application performs diagnosis with prevailing symptoms, recommends quick treatment plans and other automated health tasks.",
     image: "/images/projects/ai_clinic.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://medspark-clinic.vercel.app/",
-    stack: ["Reactjs","JavaScript", "Tailwind CSS", "Google Gemini API"],
+    stack: ["Reactjs", "JavaScript", "Tailwind CSS", "Google Gemini API"],
+  },
+  {
+    id: 7,
+    title: "Lendsqr clone",
+    description: " A loan application clone but still under development",
+    image: "/images/lendsqr_clone.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://lendsqr-clone.vercel.app/",
+    stack: [
+      "Reactjs",
+      "JavaScript",
+      "Tailwind CSS",
+      "Nodejs, Expressjs, MongoDB",
+    ],
   },
 ];
 
