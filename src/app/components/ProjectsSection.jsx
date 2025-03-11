@@ -98,7 +98,7 @@ const projectsData = [
     description: " A loan application clone but still under development",
     image: "/images/lendsqr_clone.png",
     tag: ["All", "Mobile"],
-    gitUrl: "https://lendsqr-clone.vercel.app/",
+    gitUrl: "https://lendsqr-clone-bice.vercel.app/",
     stack: [
       "Reactjs",
       "JavaScript",
