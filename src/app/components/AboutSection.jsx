@@ -51,7 +51,7 @@ const TAB_DATA = [
     content: (
       <div className="list-disc pl-2">
         <h1 className="text-purple-500 text-2xl ">
-          Klicks Communications [2023 to current]
+          Klicks Communications [2020 to current]
         </h1>
         <h2 className=""> Role: React Developer </h2>
         <p className="">
@@ -61,7 +61,7 @@ const TAB_DATA = [
           other third-party services.
         </p>
         <hr className="my-10" />
-        <h1 className="text-purple-500 text-2xl ">Fiverr [2023 to current]</h1>
+        <h1 className="text-purple-500 text-2xl ">Upwork [2020 to current]</h1>
         <h2 className=""> Role: Front End Developer</h2>
         <p className="">
           Developed and maintained various modules of complex web applications,
@@ -71,7 +71,7 @@ const TAB_DATA = [
           experience.
         </p>
         <hr className="my-10" />
-        <h1 className="text-purple-500 text-2xl ">Upwork [2023 to current]</h1>
+        <h1 className="text-purple-500 text-2xl ">Fiverr [2019 to 2020]</h1>
         <h2 className=""> Role: Front end Developer</h2>
         <p className="">
           Developed and maintained various modules of complex web applications,
@@ -81,7 +81,7 @@ const TAB_DATA = [
           experience.
         </p>
         <hr className="my-10" />
-        <h1 className="text-purple-500 text-2xl ">Megabon [2022]</h1>
+        <h1 className="text-purple-500 text-2xl ">Megabon [2019]</h1>
         <h2 className=""> Role: Intern Developer</h2>
         <p className="">
           Developed and maintained various modules of a complex web application,
