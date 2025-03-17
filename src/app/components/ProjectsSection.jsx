@@ -8,7 +8,7 @@ const projectsData = [
     id: 1,
     title: "Nelpharma",
     description:
-      "A comprehensive and fullstack e-commerce application for pharmaceutical products with admin dashboard.",
+      "Full-stack e-commerce platform for pharmaceutical products, featuring an admin dashboard. Stripe was integrated for secure online payment processing ",
     image: "/images/nelpharma.png",
     tag: ["All", "Web"],
     gitUrl: "https://nelpharmaceuticals.vercel.app/",
@@ -58,7 +58,7 @@ const projectsData = [
     id: 4,
     title: "Neldemy-LMS",
     description:
-      "Learning management system where students can enroll, buy courses and have  direct access to the course instructors/educators.",
+      "Learning Management System (LMS), Clerk was integrated for  efficient user authentication",
     image: "/images/neldemy.png",
     tag: ["All", "Web"],
     gitUrl: "https://neldemy-lms.vercel.app/",
@@ -76,7 +76,7 @@ const projectsData = [
     id: 5,
     title: "FitPulse",
     description:
-      "FitPulse, a modern  gym UI  where clients can book sessions, chat real time with admin or gym instructors and also choose type of services they want.",
+      "FitPulse, a modern  gym UI, very responsive and user-friendly.",
     image: "/images/projects/fitpulse.png",
     tag: ["All", "Web"],
     gitUrl: "https://myfitnesspulse.vercel.app/",
@@ -86,7 +86,7 @@ const projectsData = [
     id: 6,
     title: "MedSpark",
     description:
-      "SaaS UI, severless but powered by google Gemini AI. Clients can seek automated health care support at the comfort of their homes using their devices.The application performs diagnosis with prevailing symptoms, recommends quick treatment plans and other automated health tasks.",
+      "SaaS UI, severless but powered by google Gemini AI to automate responses. ",
     image: "/images/projects/ai_clinic.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://medspark-clinic.vercel.app/",
