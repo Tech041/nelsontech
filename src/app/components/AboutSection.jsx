@@ -124,7 +124,7 @@ const AboutSection = () => {
             I am a front end web developer with a passion for creating
             interactive and responsive web applications. I have experience
             working with JavaScript, TypeScript, React, Next js, Redux, Node.js,
-            Express, HTML5, CSS3, Tailwind CSS,Bootstrap,Hooks RESTFUL
+            Express, HTML5, CSS3, Tailwind CSS,Bootstrap,Hooks ,RESTFUL
             APIs,React Query,Vercel and Git. I am a quick learner and I am
             always looking to expand my knowledge and skill set. I am a team
             player and I am excited to work with others to create amazing
