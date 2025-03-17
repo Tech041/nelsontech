@@ -121,14 +121,13 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a front end web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, TypeScript, React, Next js, Redux, Node.js,
-            Express, HTML5, CSS3, Tailwind CSS,Bootstrap,Hooks ,RESTFUL
-            APIs,React Query,Vercel and Git. I am a quick learner and I am
-            always looking to expand my knowledge and skill set. I am a team
-            player and I am excited to work with others to create amazing
-            applications.
+            I am a front end web developer with over 5 years of professional
+            experience.I have strong background in React,Nextjs ,TypeScript and
+            JavaScript. I also have experience working with Redux,React Query,
+            Node.js, Express js, RESTFUL APIs,,Vercel and Git. I am a quick
+            learner and I am always looking to expand my knowledge and skill
+            set. I am a team player and I am excited to work with others to
+            create amazing applications.
           </p>
           <div className="flex flex-row justify-start flex-wrap mt-8">
             <TabButton
