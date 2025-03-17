@@ -124,7 +124,7 @@ const AboutSection = () => {
             I am a front end web developer with over 5 years of professional
             experience.I have strong background in React,Nextjs ,TypeScript and
             JavaScript. I also have experience working with Redux,React Query,
-            Node.js, Express js, RESTFUL APIs,,Vercel and Git. I am a quick
+            Node.js, Express js, RESTFUL APIs,Vercel and Git. I am a quick
             learner and I am always looking to expand my knowledge and skill
             set. I am a team player and I am excited to work with others to
             create amazing applications.
