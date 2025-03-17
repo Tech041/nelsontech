@@ -86,7 +86,7 @@ const TAB_DATA = [
         <h1 className="text-purple-500 text-2xl ">Megabon [2019]</h1>
         <h2 className=""> Role: Intern Developer</h2>
         <p className="">
-          Worked closely with UX/UI designers to transform design mockups into
+          Worked closely with UI/UX designers to transform design mockups into
           pixel-perfect, responsive user interfaces which include gym app,
           e-commerce and LMS applications. Using React, Next.js,
           TypeScript/JavaScript, Tailwind CSS, Redux, and other front-end
