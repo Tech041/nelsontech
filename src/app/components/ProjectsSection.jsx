@@ -38,7 +38,6 @@ const projectsData = [
       "Redux",
       "Nodejs",
       "Expressjs",
-      "Cloudinary",
       "MongoDB",
     ],
   },
