@@ -8,7 +8,7 @@ const projectsData = [
     id: 1,
     title: "Nelpharma",
     description:
-      "Full-stack e-commerce platform for pharmaceutical products, featuring an admin dashboard. Stripe was integrated for secure online payment processing ",
+      "Full-stack e-commerce platform for pharmaceutical products, featuring an admin dashboard. Stripe was integrated for secure online payment processing. ",
     image: "/images/nelpharma.png",
     tag: ["All", "Web"],
     gitUrl: "https://nelpharmaceuticals.vercel.app/",
@@ -27,7 +27,7 @@ const projectsData = [
     id: 2,
     title: "E-SHOP",
     description:
-      "Full stack e-commerce application for all kinds of electronic gadgets ranging from phones, laptops to wrist watches.",
+      "Full stack e-commerce application for electronic gadgets like phones, laptops and wrist watches.Stripe was integrated for secure online payment processing",
     image: "/images/projects/e_shop.png",
     tag: ["All", "Web"],
     gitUrl: "https://just-electronics.onrender.com/",
