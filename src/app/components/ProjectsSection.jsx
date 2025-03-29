@@ -100,7 +100,7 @@ const projectsData = [
     gitUrl: "https://lendsqr-clone-bice.vercel.app/",
     stack: [
       "Reactjs",
-      "JavaScript",
+      "TypeScript",
       "Tailwind CSS",
       "Nodejs, Expressjs, MongoDB",
     ],
