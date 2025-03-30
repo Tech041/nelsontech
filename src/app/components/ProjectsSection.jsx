@@ -93,6 +93,21 @@ const projectsData = [
   },
   {
     id: 7,
+    title: "MERN-AUTHENTICATION",
+    description:
+      "MERN authentication system featuring email verification via OTP, password reset via OTP and storage of JWT in HTTP-only cookies for security",
+    image: "/images/mern_auth.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://mernauth-frontend.vercel.app/",
+    stack: [
+      "Reactjs",
+      "JavaScript",
+      "Tailwind CSS",
+      "Nodejs, Expressjs, MongoDB",
+    ],
+  },
+  {
+    id: 8,
     title: "Lendsqr clone",
     description: " A loan application clone but still under development",
     image: "/images/lendsqr_clone.png",

@@ -53,7 +53,7 @@ const TAB_DATA = [
         <h1 className="text-purple-500 text-2xl ">
           Klicks Communications [2020 to current]
         </h1>
-        <h2 className=""> Role: React Developer </h2>
+        <h2 className=""> Role: Reactjs/Node js Developer </h2>
         <p className="">
           Developed scalable, responsive, and dynamic web applications which
           include e-commerce, learning management system, SaaS UI, loan apps
@@ -64,7 +64,7 @@ const TAB_DATA = [
         </p>
         <hr className="my-10" />
         <h1 className="text-purple-500 text-2xl ">Upwork [2020 to current]</h1>
-        <h2 className=""> Role: Front End Developer</h2>
+        <h2 className=""> Role: Reactjs Developer</h2>
         <p className="">
           Designed, developed, and maintained key modules of complex web
           applications like e-commerce, hospital admin dashboard etc. Using
@@ -74,7 +74,7 @@ const TAB_DATA = [
         </p>
         <hr className="my-10" />
         <h1 className="text-purple-500 text-2xl ">Fiverr [2019 to 2020]</h1>
-        <h2 className=""> Role: Front end Developer</h2>
+        <h2 className=""> Role: Frontend Developer</h2>
         <p className="">
           Developed and maintained various modules of complex web applications,
           employing React.js/Next.js and TypeScript and consuming .Net, Django,
@@ -84,7 +84,7 @@ const TAB_DATA = [
         </p>
         <hr className="my-10" />
         <h1 className="text-purple-500 text-2xl ">Megabon [2019]</h1>
-        <h2 className=""> Role: Intern Developer</h2>
+        <h2 className=""> Role: Reactjs Developer</h2>
         <p className="">
           Worked closely with UI/UX designers to transform design mockups into
           pixel-perfect, responsive user interfaces which include gym app,
@@ -121,10 +121,10 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a front end web developer with over 5 years of professional
-            experience.I have strong background in React,Nextjs ,TypeScript and
+            I am a software developer with  5 years of professional
+            experience.I have strong background in Reactjs,Nextjs ,TypeScript and
             JavaScript. I also have experience working with Redux,React Query,
-            Node.js, Express js, RESTFUL APIs,Vercel and Git. I am a quick
+            Node.js, Express js, RESTFUL APIs,MongoDB,Vercel and Git. I am a quick
             learner and I am always looking to expand my knowledge and skill
             set. I am a team player and I am excited to work with others to
             create amazing applications.
