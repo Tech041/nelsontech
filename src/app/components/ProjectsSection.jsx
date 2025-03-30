@@ -95,7 +95,7 @@ const projectsData = [
     id: 7,
     title: "MERN-AUTHENTICATION",
     description:
-      "MERN authentication system featuring email verification via OTP, password reset via OTP and storage of JWT in HTTP-only cookies for security",
+      "MERN authentication system featuring email verification and password reset via OTP.",
     image: "/images/mern_auth.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://mernauth-frontend.vercel.app/",
@@ -103,6 +103,7 @@ const projectsData = [
       "Reactjs",
       "JavaScript",
       "Tailwind CSS",
+      "Google SMTP",
       "Nodejs, Expressjs, MongoDB",
     ],
   },
