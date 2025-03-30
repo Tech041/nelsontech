@@ -93,9 +93,9 @@ const projectsData = [
   },
   {
     id: 7,
-    title: "MERN-AUTHENTICATION",
+    title: "MERN-AUTH",
     description:
-      "MERN authentication system featuring email verification and password reset via OTP.",
+      "MERN authentication system featuring email verification  and password reset via OTP powered by google SMTP.",
     image: "/images/mern_auth.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://mernauth-frontend.vercel.app/",
