@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { TiSocialLinkedin } from "react-icons/ti";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
@@ -34,15 +35,33 @@ const EmailSection = () => {
           </div>
           <div className="my-8 flex items-center gap-4">
             <span className="">
-            <MdEmail size={30} color="white" />
+              <TiSocialLinkedin size={30} color="white" />
             </span>
-            <span className="text-white">chinwubanelson@gmail.com</span>
+            <Link
+              href="https://www.linkedin.com/in/nel21"
+              target="_blank"
+              className="text-white"
+            >
+              chinwuba Nelson
+            </Link>
+          </div>
+          <div className="my-8 flex items-center gap-4">
+            <span className="">
+              <MdEmail size={30} color="white" />
+            </span>
+            <span className="text-white">
+              <a href="mailto:chinwubanelson@gmail.com?subject=Hello chinwuba Nelson&body=Greetings from me...">
+                chinwubanelson@gmail.com
+              </a>
+            </span>
           </div>
           <div className="flex items-center gap-4 mt-8">
             <span className="">
               <FaPhone color="white" size={30} />
             </span>
-            <span className="text-white">+2349025942555</span>
+            <span className="text-white">
+              <a href="tel:08030507512">08030507512</a>
+            </span>
           </div>
         </div>
       </div>
