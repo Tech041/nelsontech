@@ -37,8 +37,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            A skilled Front End Developer who specialized in developing modern
-            and dynamic websites.
+            A skilled software Developer who specialized in developing modern
+            and dynamic websites/web applications.
           </p>
         </motion.div>
         <motion.div
