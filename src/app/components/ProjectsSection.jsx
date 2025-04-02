@@ -8,7 +8,7 @@ const projectsData = [
     id: 1,
     title: "Nelpharma",
     description:
-      "Full-stack e-commerce platform for pharmaceutical products, featuring an admin dashboard. Stripe was integrated for secure online payment processing. ",
+      "MERN stack e-commerce for pharmaceutical products featuring admin dashboard, user authentication, payments (Stripe), and product management. ",
     image: "/images/nelpharma.png",
     tag: ["All", "Web"],
     gitUrl: "https://nelpharmaceuticals.vercel.app/",
@@ -25,77 +25,9 @@ const projectsData = [
 
   {
     id: 2,
-    title: "E-SHOP",
-    description:
-      "Full stack e-commerce application for electronic gadgets like phones, laptops and wrist watches.Stripe was integrated for secure online payment processing",
-    image: "/images/projects/e_shop.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://just-electronics.onrender.com/",
-    stack: [
-      "Reactjs",
-      "TypeScript",
-      "Tailwind CSS",
-      "Redux",
-      "Nodejs",
-      "Expressjs",
-      "MongoDB",
-    ],
-  },
-
-  {
-    id: 3,
-    title: "Nelfix",
-    description:
-      "Explore the ultimate movie destination! Powered by the TMDB API, this website offers an extensive library of movies and TV shows, complete with detailed information, trailers, reviews, and ratings.",
-    image: "/images/nelfix.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://nelfixmovies.vercel.app/",
-    stack: ["Nextjs", "JavaScript", "Tailwind CSS", "TMDB API"],
-  },
-
-  {
-    id: 4,
-    title: "Neldemy-LMS",
-    description:
-      "Learning Management System (LMS), Clerk was integrated for  efficient user authentication",
-    image: "/images/neldemy.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://neldemy-lms.vercel.app/",
-    stack: [
-      "Reactjs",
-      "JavaScript",
-      "Tailwind CSS",
-      "Nodejs",
-      "Expressjs",
-      "Cloudinary",
-      "MongoDB",
-    ],
-  },
-  {
-    id: 5,
-    title: "FitPulse",
-    description:
-      "FitPulse, a modern  gym UI, very responsive and user-friendly.",
-    image: "/images/projects/fitpulse.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://myfitnesspulse.vercel.app/",
-    stack: ["Reactjs", "JavaScript", "Tailwind CSS"],
-  },
-  {
-    id: 6,
-    title: "MedSpark",
-    description:
-      "SaaS UI, severless but powered by google Gemini AI to automate responses. ",
-    image: "/images/projects/ai_clinic.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "https://medspark-clinic.vercel.app/",
-    stack: ["Reactjs", "JavaScript", "Tailwind CSS", "Google Gemini API"],
-  },
-  {
-    id: 7,
     title: "MERN-AUTH",
     description:
-      "MERN authentication system featuring email verification  and password reset via OTP powered by google SMTP.",
+      "MERN authentication system with OTP-based email verification and password reset via Google SMTP.",
     image: "/images/mern_auth.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://mernauth-frontend.vercel.app/",
@@ -104,22 +36,40 @@ const projectsData = [
       "JavaScript",
       "Tailwind CSS",
       "Google SMTP",
-      "Nodejs, Expressjs, MongoDB",
+      "Nodejs",
+      "Expressjs",
+      "MongoDB",
     ],
   },
   {
-    id: 8,
-    title: "Lendsqr clone",
-    description: " A loan application clone but still under development",
-    image: "/images/lendsqr_clone.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "https://lendsqr-clone-bice.vercel.app/",
+    id: 3,
+    title: "Neldemy-LMS",
+    description:
+      "Learning Management System (LMS) UI featuring google gemini AI.Clerk was integrated for  efficient user authentication",
+    image: "/images/neldemy.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://neldemy-lms.vercel.app/",
     stack: [
       "Reactjs",
-      "TypeScript",
+      "JavaScript",
       "Tailwind CSS",
-      "Nodejs, Expressjs, MongoDB",
+      "Nodejs",
+      "gemini AI",
+      "Expressjs",
+      "Cloudinary",
+      "MongoDB",
     ],
+  },
+
+  {
+    id: 4,
+    title: "Nelfix",
+    description:
+      "Explore the ultimate movie destination! Powered by the TMDB API, this website offers an extensive library of movies and TV shows, complete with detailed information, trailers, reviews, and ratings.",
+    image: "/images/nelfix.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://nelfixmovies.vercel.app/",
+    stack: ["Nextjs", "JavaScript", "Tailwind CSS", "TMDB API"],
   },
 ];
 
