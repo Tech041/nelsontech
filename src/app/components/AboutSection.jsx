@@ -40,7 +40,7 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Certified Web developer</li>
+        <li>Diploma in Software development</li>
         <li>Bachelor of Pharmacy</li>
       </ul>
     ),
@@ -53,46 +53,33 @@ const TAB_DATA = [
         <h1 className="text-purple-500 text-2xl ">
           Klicks Communications [2020 to current]
         </h1>
-        <h2 className=""> Role: Reactjs/Node js Developer </h2>
+        <h2 className=""> Role: MERN Developer </h2>
         <p className="">
-          Developed scalable, responsive, and dynamic web applications which
-          include e-commerce, learning management system, SaaS UI, loan apps
-          etc. Utilizing React, Next.js, JavaScript, TypeScript, and Tailwind
-          CSS. Utilized Redux and Context API for efficient global state
-          management. • Consumed REST APIs and third-party services to enhance
-          application functionality and performance.
+          Built and deployed dynamic, scalable web apps using the MERN stack.
+          Developed a real-time chat app with Socket.io, JWT auth (HTTP-only
+          cookies), Gemini AI, and online user tracking. Developed a pharmacy
+          e-commerce featuring payment integration (Stripe), admin dashboard,
+          and product management. Engineered OTP-based email verification and
+          password reset with Google SMTP.
         </p>
-        <hr className="my-10" />
-        <h1 className="text-purple-500 text-2xl ">Upwork [2020 to current]</h1>
-        <h2 className=""> Role: Reactjs Developer</h2>
-        <p className="">
-          Designed, developed, and maintained key modules of complex web
-          applications like e-commerce, hospital admin dashboard etc. Using
-          React.js/Next.js and TypeScript, while integrating .NET, Django,
-          Spring Boot, and REST APIs. Implemented third-party APIs and services
-          to enhance functionality and optimize the user experience.
-        </p>
+        
+
         <hr className="my-10" />
         <h1 className="text-purple-500 text-2xl ">Fiverr [2019 to 2020]</h1>
         <h2 className=""> Role: Frontend Developer</h2>
         <p className="">
-          Developed and maintained various modules of complex web applications,
-          employing React.js/Next.js and TypeScript and consuming .Net, Django,
-          Spring Boot and REST APIs. Integrated third-party APIs and services to
-          extend application functionalities, improving the overall user
-          experience.
+          Designed, developed, and maintained key modules of complex web
+          applications including e-commerce platforms, hospital admin dashboards
+          and other custom applications.Implemented third-party APIs and
+          services to enhance functionality and optimize the user experience.
         </p>
         <hr className="my-10" />
         <h1 className="text-purple-500 text-2xl ">Megabon [2019]</h1>
-        <h2 className=""> Role: Reactjs Developer</h2>
+        <h2 className=""> Role: Frontend developer</h2>
         <p className="">
-          Worked closely with UI/UX designers to transform design mockups into
-          pixel-perfect, responsive user interfaces which include gym app,
-          e-commerce and LMS applications. Using React, Next.js,
-          TypeScript/JavaScript, Tailwind CSS, Redux, and other front-end
-          technologies. • Implemented server-side rendering (SSR) and static
-          site generation (SSG) with Next.js to improve application performance
-          and SEO. Integrated and consumed REST APIs to enhance functionality.
+          : Worked closely with UI/UX designers to transform design mockups into
+          pixel-perfect, responsive user interfaces which include Learning
+          Management System (LMS) featuring google gemini AI.
         </p>
       </div>
     ),
@@ -121,13 +108,9 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a software developer with  5 years of professional
-            experience.I have strong background in Reactjs,Nextjs ,TypeScript and
-            JavaScript. I also have experience working with Redux,React Query,
-            Node.js, Express js, RESTFUL APIs,MongoDB,Vercel and Git. I am a quick
-            learner and I am always looking to expand my knowledge and skill
-            set. I am a team player and I am excited to work with others to
-            create amazing applications.
+            Frontend-focused MERN stack developer with 5+ years of experience in
+            building responsive and scalable web apps. Skilled in React/Next.js,
+            REST APIs and modern authentication flows.
           </p>
           <div className="flex flex-row justify-start flex-wrap mt-8">
             <TabButton
