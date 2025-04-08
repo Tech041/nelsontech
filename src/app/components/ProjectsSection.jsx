@@ -6,6 +6,26 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Pingme",
+    description:
+      "A full-stack MERN chat application powered by Socket.io for seamless real-time messaging. Features secure authentication, online user tracking, instant message delivery, and a smooth user experience.",
+    image: "/images/pingchat.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://pingme-chat-app.vercel.app",
+    stack: [
+      "React js",
+      "JavaScript",
+      "Tailwind CSS",
+      "DaisyUI",
+      "Node",
+      "Express",
+      "Socket.IO",
+      "Cloudinary",
+      "MongoDB",
+    ],
+  },
+  {
+    id: 2,
     title: "Nelpharma",
     description:
       "MERN stack e-commerce for pharmaceutical products featuring admin dashboard, user authentication, payments (Stripe), and product management. ",
@@ -24,7 +44,7 @@ const projectsData = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "MERN-AUTH",
     description:
       "MERN authentication system with OTP-based email verification and password reset via Google SMTP.",
@@ -42,7 +62,7 @@ const projectsData = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Neldemy-LMS",
     description:
       "Learning Management System (LMS) UI featuring google gemini AI.Clerk was integrated for  efficient user authentication",
@@ -62,7 +82,7 @@ const projectsData = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Nelfix",
     description:
       "Explore the ultimate movie destination! Powered by the TMDB API, this website offers an extensive library of movies and TV shows, complete with detailed information, trailers, reviews, and ratings.",
