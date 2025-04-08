@@ -69,16 +69,7 @@ const projectsData = [
     image: "/images/neldemy.png",
     tag: ["All", "Web"],
     gitUrl: "https://neldemy-lms.vercel.app/",
-    stack: [
-      "Reactjs",
-      "JavaScript",
-      "Tailwind CSS",
-      "Nodejs",
-      "gemini AI",
-      "Expressjs",
-      "Cloudinary",
-      "MongoDB",
-    ],
+    stack: ["Reactjs", "JavaScript", "Tailwind CSS", "gemini AI"],
   },
 
   {
