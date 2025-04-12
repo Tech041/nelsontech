@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Portfolio Website
 
 This is my portfolio website built with Next.js and Tailwind CSS. It showcases my skills, projects, and achievements in an elegant and responsive design.
@@ -10,4 +11,6 @@ This is my portfolio website built with Next.js and Tailwind CSS. It showcases m
 4. Open your browser and visit `http://localhost:3000` to view the website.
 
 
+=======
+>>>>>>> 88e4c3950c00fc41e6acd5b5d507bae539576cf7
 
