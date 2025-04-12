@@ -54,15 +54,47 @@ const TAB_DATA = [
           Klicks Communications [2020 to current]
         </h1>
         <h2 className=""> Role: MERN Developer </h2>
-        <p className="">
-          Built and deployed dynamic, scalable web apps using the MERN stack.
-          Developed a real-time chat app with Socket.io, JWT auth (HTTP-only
-          cookies), Gemini AI, and online user tracking. Developed a pharmacy
-          e-commerce featuring payment integration (Stripe), admin dashboard,
-          and product management. Engineered OTP-based email verification and
-          password reset with Google SMTP.
-        </p>
-        
+        <div className="">
+          • Developed and implemented dynamic user interfaces for a UK-based
+          client’s project using React, TypeScript, Redux and Tailwind CSS ,
+          focusing on delivering intuitive and responsive front-end solutions.
+          <p>
+            •Ensured compliance with Web Content Accessibility Guidelines
+            (WCAG), improving usability for all users. • Applied Test-Driven
+            Development (TDD) practices to deliver high-quality, maintainable
+            and reliable code.
+          </p>
+          <p className="">
+            • Optimized front-end performance by implementing code splitting,
+            lazy loading, and caching, resulting in a 30% improvement in page
+            load times.
+          </p>{" "}
+          <p className="">
+            • Created RESTful APIs using Node.js and Express.js for a real time
+            chat application and integrated them into the frontend to improve
+            performance and enhance functionality.
+          </p>{" "}
+          <p className="">
+            • Implemented secure OTP-based email verification and password reset
+            via Google SMTP for a pharmaceutical product-based e-commerce
+            application and integrated third-party APIs, such as Stripe payment
+            gateway, to enhance application functionality.
+          </p>{" "}
+          <p className="">
+            • Improved code maintainability by implementing coding standards,
+            code reviews, code documentation and refactoring, reducing technical
+            debt by 25% and conducted cross-browser testing and debugging to
+            ensure compatibility across multiple browsers and devices.
+          </p>{" "}
+          <p className="">
+            • Collaborated with designers to translate designs into functional
+            and visually appealing front-end solutions.
+          </p>{" "}
+          <p className="">
+            • Led junior developers in building a responsive and user-friendly
+            Learning Management System featuring Google Gemini AI chatbot.
+          </p>
+        </div>
 
         <hr className="my-10" />
         <h1 className="text-purple-500 text-2xl ">Fiverr [2019 to 2020]</h1>
