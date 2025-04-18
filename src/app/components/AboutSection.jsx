@@ -11,17 +11,22 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Node.js</li>
         <li>Express.js</li>
+        <li>RESTful APIs</li>
+        <li>Socket.IO</li>
+        <li>Cloudinary</li>
+        <li>NodeMailer</li>
+        <li>MongoDB</li>
         <li>Hooks</li>
         <li>JavaScript</li>
         <li>React</li>
+        <li>Zod</li>
         <li>Next.js</li>
         <li>TypeScript</li>
         <li>React Query</li>
         <li>Redux Toolkit</li>
-        <li>RESTFUL APIs</li>
-        <li>AWS</li>
         <li>GIT</li>
         <li>Vercel</li>
+        <li>Render</li>
       </ul>
     ),
   },
