@@ -9,6 +9,12 @@ const projectsData = [
     title: "Pingme",
     description:
       "A full-stack MERN chat application powered by Socket.io for seamless real-time messaging. Features secure authentication, online user tracking, instant message delivery, and a smooth user experience.",
+    highlight: [
+      "Real-time messaging using Socket.IO",
+      "Online status tracking",
+      "MongoDB for message persistence",
+      "Clean and intuitive chat UI",
+    ],
     image: "/images/pingchat.png",
     tag: ["All", "Web"],
     gitUrl: "https://pingme-chat-app.vercel.app",
@@ -17,6 +23,7 @@ const projectsData = [
       "JavaScript",
       "Tailwind CSS",
       "DaisyUI",
+      "Gemini API",
       "Node",
       "Express",
       "Socket.IO",
@@ -29,6 +36,12 @@ const projectsData = [
     title: "Nelpharma",
     description:
       "MERN stack e-commerce for pharmaceutical products featuring admin dashboard, user authentication, payments (Stripe), and product management. ",
+    highlight: [
+      "Cart and order state management with Context API",
+      "JWT-based authentication with protected routes",
+      "Admin panel for product and user management",
+      "Fully responsive UI with modern styling",
+    ],
     image: "/images/nelpharma.png",
     tag: ["All", "Web"],
     gitUrl: "https://nelpharmaceuticals.vercel.app/",
@@ -48,6 +61,12 @@ const projectsData = [
     title: "MERN-AUTH",
     description:
       "MERN authentication system with OTP-based email verification and password reset via Google SMTP.",
+    highlight: [
+      "OTP-based email verification and reset",
+      "Secure cookie-based token handling",
+      "Protected routes and role-based access",
+      "Real-world auth flow simulation",
+    ],
     image: "/images/mern_auth.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://mernauth-frontend.vercel.app/",
@@ -66,10 +85,17 @@ const projectsData = [
     title: "Neldemy-LMS",
     description:
       "Learning Management System (LMS) UI featuring google gemini AI.Clerk was integrated for  efficient user authentication",
+    highlight: [
+      "AI-enhanced user interface with chatbot",
+      "Modular components",
+      "Clean, professional LMS layout using Tailwind",
+      "Modern frontend architecture for scalability",
+    ],
     image: "/images/neldemy.png",
     tag: ["All", "Web"],
     gitUrl: "https://neldemy-lms.vercel.app/",
-    stack: ["Reactjs", "JavaScript", "Tailwind CSS", "gemini AI"],
+
+    stack: ["Reactjs", "JavaScript", "Tailwind CSS", "Gemini API"],
   },
 
   {
@@ -77,6 +103,11 @@ const projectsData = [
     title: "Nelfix",
     description:
       "Explore the ultimate movie destination! Powered by the TMDB API, this website offers an extensive library of movies and TV shows, complete with detailed information, trailers, reviews, and ratings.",
+    highlight: [
+      "Fast and SEO-friendly: Utilized Next.js's built-in SSR capabilities to pre-render pages on the server, improving page load times and search engine optimization.",
+      " Dynamic Data Fetching: Implemented SSR to fetch movie data from an API, ensuring that pages are rendered with the latest data.",
+      " Improved User Experience: Leveraged Next.js's automatic code splitting and optimized rendering to provide a seamless user experience.",
+    ],
     image: "/images/nelfix.png",
     tag: ["All", "Web"],
     gitUrl: "https://nelfixmovies.vercel.app/",
@@ -105,10 +136,10 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+        Latest Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6"></div>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <ul ref={ref} className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}
@@ -121,6 +152,7 @@ const ProjectsSection = () => {
               key={project.id}
               title={project.title}
               description={project.description}
+              highlight={project.highlight}
               imgUrl={project.image}
               gitUrl={project.gitUrl}
               stack={project.stack}

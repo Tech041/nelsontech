@@ -8,7 +8,7 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
+      <ul className=" w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5  gap-3">
         <li>Node.js</li>
         <li>Express.js</li>
         <li>RESTful APIs</li>
@@ -24,6 +24,8 @@ const TAB_DATA = [
         <li>TypeScript</li>
         <li>React Query</li>
         <li>Redux Toolkit</li>
+        <li>Docker</li>
+        <li>AWS</li>
         <li>GIT</li>
         <li>Vercel</li>
         <li>Render</li>
@@ -114,7 +116,7 @@ const TAB_DATA = [
         <h1 className="text-purple-500 text-2xl ">Megabon [2019]</h1>
         <h2 className=""> Role: Frontend developer</h2>
         <p className="">
-          : Worked closely with UI/UX designers to transform design mockups into
+          Worked closely with UI/UX designers to transform design mockups into
           pixel-perfect, responsive user interfaces which include Learning
           Management System (LMS) featuring google gemini AI.
         </p>
@@ -137,17 +139,23 @@ const AboutSection = () => {
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
-          src="/images/about-image.png"
+          src="/images/bg_pic.jpg"
           width={500}
           height={500}
           alt="about-image"
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-purple-800 mb-4">
+            Professional Summary
+          </h2>
           <p className="text-base lg:text-lg">
-            Frontend-focused MERN stack developer with 5+ years of experience in
-            building responsive and scalable web apps. Skilled in React/Next.js,
-            REST APIs and modern authentication flows.
+            Proactive and result-driven React.js/Node.js Developer with 5 years
+            of experience designing, building, and maintaining high-performance,
+            accessible web applications using the MERN stack. Proven expertise
+            in frontend and backend development, real-time systems, RESTful
+            APIs, and third-party integrations. Adept at Test-Driven Development
+            (TDD), accessibility standards (WCAG), and cross-functional team
+            collaboration.
           </p>
           <div className="flex flex-row justify-start flex-wrap mt-8">
             <TabButton

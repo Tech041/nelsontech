@@ -2,7 +2,14 @@ import React from "react";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
-const ProjectCard = ({ imgUrl, title, description, gitUrl, stack }) => {
+const ProjectCard = ({
+  imgUrl,
+  title,
+  description,
+  gitUrl,
+  stack,
+  highlight,
+}) => {
   return (
     <div>
       <div
@@ -21,7 +28,15 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, stack }) => {
           </Link>
         </div>
         <p className="text-[#ADB7BE]">{description}</p>
-        <p className=" pt-1 ">Technologies used are::</p>
+        <p className="pt-3 text-orange-800">Highlights:</p>
+        <p className="">
+          {highlight.map((item, index) => (
+            <span key={index} className="block py-2">
+              {item}
+            </span>
+          ))}
+        </p>
+        <p className=" pt-1 ">Tech Stack::</p>
         <p className="text-orange-700 flex  flex-wrap ">
           {stack.map((item, index) => (
             <span key={index} className="py-1 pr-3 rounded-md">
