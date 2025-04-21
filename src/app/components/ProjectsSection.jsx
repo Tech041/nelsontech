@@ -62,7 +62,7 @@ const projectsData = [
     description:
       "MERN authentication system with OTP-based email verification and password reset via Google SMTP.",
     highlight: [
-      "OTP-based email verification and reset",
+      "OTP-based email verification and password reset",
       "Secure cookie-based token handling",
       "Protected routes and role-based access",
       "Real-world auth flow simulation",
