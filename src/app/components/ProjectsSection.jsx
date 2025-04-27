@@ -74,7 +74,7 @@ const projectsData = [
     image: "/images/pinterest.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://nelpinterest-app.vercel.app/",
-    stack: ["Reactjs", "CSS3", "JavaScript", "Nodejs", "Expressjs", "MongoDB"],
+    stack: ["Reactjs", "CSS3", "JavaScript", "Nodejs","ImageKIt", "Expressjs", "MongoDB"],
   },
 
   {
