@@ -58,6 +58,26 @@ const projectsData = [
 
   {
     id: 3,
+    title: "Nelpinterest",
+    description:
+      "Discover, save, and share ideas you love. Our Pinterest app helps you find inspiration for everything from fashion and recipes to home decor and more!",
+    highlight: [
+      "Secure cookie-based token handling",
+      "Protected routes",
+      "Infinite Scrolling: Enjoy seamless browsing with endless content loading.",
+      "Content Creation: Create and share your own Pins to inspire others",
+      "Boards Organization: Save Pins to custom boards for easy organization",
+      "Visual Discovery: Find and save ideas through images",
+      "Search with Images: Use visual search to find related ideas instantly.",
+    ],
+    image: "/images/pinterest.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://nelpinterest-app.vercel.app/",
+    stack: ["Reactjs", "CSS3", "JavaScript", "Nodejs", "Expressjs", "MongoDB"],
+  },
+
+  {
+    id: 4,
     title: "MERN-AUTH",
     description:
       "MERN authentication system with OTP-based email verification and password reset via Google SMTP.",
@@ -81,7 +101,7 @@ const projectsData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Neldemy-LMS",
     description:
       "Learning Management System (LMS) UI featuring google gemini AI.Clerk was integrated for  efficient user authentication",
@@ -99,7 +119,7 @@ const projectsData = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Nelfix",
     description:
       "Explore the ultimate movie destination! Powered by the TMDB API, this website offers an extensive library of movies and TV shows, complete with detailed information, trailers, reviews, and ratings.",
