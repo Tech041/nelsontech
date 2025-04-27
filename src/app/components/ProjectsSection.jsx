@@ -12,6 +12,7 @@ const projectsData = [
     highlight: [
       "Real-time messaging using Socket.IO",
       "Online status tracking",
+      "AI chatbot",
       "MongoDB for message persistence",
       "Clean and intuitive chat UI",
     ],
