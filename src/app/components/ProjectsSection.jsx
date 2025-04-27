@@ -60,7 +60,7 @@ const projectsData = [
     id: 3,
     title: "Nelpinterest",
     description:
-      "Discover, save, and share ideas you love. Our Pinterest app helps you find inspiration for everything from fashion and recipes to home decor and more!",
+      "Discover, save, and share ideas you love. Nelpinterest app helps you find inspiration for everything from fashion and recipes to home decor and more!",
     highlight: [
       "Secure cookie-based token handling",
       "Protected routes",
