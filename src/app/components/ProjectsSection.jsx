@@ -71,7 +71,7 @@ const projectsData = [
       "Visual Discovery: Find and save ideas through images",
       "Search with Images: Use visual search to find related ideas instantly.",
     ],
-    image: "/images/pinterest.png",
+    image: "/images/nelpin.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://nelpinterest-app.vercel.app/",
     stack: ["Reactjs", "CSS3", "JavaScript", "Nodejs","ImageKIt", "Expressjs", "MongoDB"],
