@@ -105,7 +105,7 @@ const projectsData = [
     id: 5,
     title: "Neldemy-LMS",
     description:
-      "Learning Management System (LMS) UI featuring google gemini AI.Clerk was integrated for  efficient user authentication",
+      "Learning Management System (LMS) UI featuring google Gemini AI chatbot.Gemini was integrated to enhance user conversation experience",
     highlight: [
       "AI-enhanced user interface with chatbot",
       "Modular components",
