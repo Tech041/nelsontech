@@ -60,46 +60,38 @@ const TAB_DATA = [
         <h1 className="text-purple-500 text-2xl ">
           Klicks Communications [2020 to current]
         </h1>
-        <h2 className=""> Role: MERN Developer </h2>
+        <h2 className=""> Role:Full stack Developer [MERN] </h2>
         <div className="">
-          • Developed and implemented dynamic user interfaces for a UK-based
-          client’s project using React, TypeScript, Redux and Tailwind CSS ,
-          focusing on delivering intuitive and responsive front-end solutions.
           <p>
-            •Ensured compliance with Web Content Accessibility Guidelines
-            (WCAG), improving usability for all users. • Applied Test-Driven
-            Development (TDD) practices to deliver high-quality, maintainable
-            and reliable code.
+            Containerized React applications using Docker and implemented WCAG
+            standards for accessibility
           </p>
           <p className="">
-            • Optimized front-end performance by implementing code splitting,
-            lazy loading, and caching, resulting in a 30% improvement in page
-            load times.
+            Implemented secure OTP-based email verification and password reset
+            with Google SMTP.
           </p>{" "}
           <p className="">
-            • Created RESTful APIs using Node.js and Express.js for a real time
-            chat application and integrated them into the frontend to improve
-            performance and enhance functionality.
+            Developed and implemented real-time functionalities using Socket.io.
           </p>{" "}
           <p className="">
-            • Implemented secure OTP-based email verification and password reset
-            via Google SMTP for a pharmaceutical product-based e-commerce
-            application and integrated third-party APIs, such as Stripe payment
-            gateway, to enhance application functionality.
+            Integrated Stripe for secure e-commerce payments and implemented API
+            rate limiting using Arcjet.
           </p>{" "}
           <p className="">
-            • Improved code maintainability by implementing coding standards,
-            code reviews, code documentation and refactoring, reducing technical
-            debt by 25% and conducted cross-browser testing and debugging to
-            ensure compatibility across multiple browsers and devices.
+            Implemented TDD with Jest and improved performance via
+            code-splitting, and caching (30% speed boost).
           </p>{" "}
           <p className="">
-            • Collaborated with designers to translate designs into functional
-            and visually appealing front-end solutions.
+            Collaborated with 3+ functional teams to gather requirements and
+            define project scopes.
           </p>{" "}
           <p className="">
-            • Led junior developers in building a responsive and user-friendly
+            Led junior developers in building a responsive and user-friendly
             Learning Management System featuring Google Gemini AI chatbot.
+          </p>
+          <p className="">
+            Leveraged React Query for managing server state and performing
+            mutations to update data seamlessly.
           </p>
         </div>
 

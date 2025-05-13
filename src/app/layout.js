@@ -7,7 +7,7 @@ export const metadata = {
   title: "Neltech | Portfolio",
   description: "My Portfolio website",
   icons: {
-    icon: "/images/hero.jpg",
+    icon: "/neldev.jpg",
   },
 };
 
