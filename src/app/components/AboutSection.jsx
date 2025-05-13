@@ -63,34 +63,34 @@ const TAB_DATA = [
         <h2 className=""> Role:Full stack Developer [MERN] </h2>
         <div className="">
           <p>
-            Containerized React applications using Docker and implemented WCAG
-            standards for accessibility
+            •Containerized React applications using Docker and implemented WCAG
+            standards for accessibility.
           </p>
           <p className="">
-            Implemented secure OTP-based email verification and password reset
+            •Implemented secure OTP-based email verification and password reset
             with Google SMTP.
           </p>{" "}
           <p className="">
-            Developed and implemented real-time functionalities using Socket.io.
+            •Developed and implemented real-time functionalities using Socket.io.
           </p>{" "}
           <p className="">
-            Integrated Stripe for secure e-commerce payments and implemented API
+            •Integrated Stripe for secure e-commerce payments and implemented API
             rate limiting using Arcjet.
           </p>{" "}
           <p className="">
-            Implemented TDD with Jest and improved performance via
+            •Implemented TDD with Jest and improved performance via
             code-splitting, and caching (30% speed boost).
           </p>{" "}
           <p className="">
-            Collaborated with 3+ functional teams to gather requirements and
+            •Collaborated with 3+ functional teams to gather requirements and
             define project scopes.
           </p>{" "}
           <p className="">
-            Led junior developers in building a responsive and user-friendly
+            •Led junior developers in building a responsive and user-friendly
             Learning Management System featuring Google Gemini AI chatbot.
           </p>
           <p className="">
-            Leveraged React Query for managing server state and performing
+            •Leveraged React Query for managing server state and performing
             mutations to update data seamlessly.
           </p>
         </div>
@@ -99,7 +99,7 @@ const TAB_DATA = [
         <h1 className="text-purple-500 text-2xl ">Fiverr [2019 to 2020]</h1>
         <h2 className=""> Role: Frontend Developer</h2>
         <p className="">
-          Designed, developed, and maintained key modules of complex web
+          •Designed, developed, and maintained key modules of complex web
           applications including e-commerce platforms, hospital admin dashboards
           and other custom applications.Implemented third-party APIs and
           services to enhance functionality and optimize the user experience.
@@ -108,7 +108,7 @@ const TAB_DATA = [
         <h1 className="text-purple-500 text-2xl ">Megabon [2019]</h1>
         <h2 className=""> Role: Frontend developer</h2>
         <p className="">
-          Worked closely with UI/UX designers to transform design mockups into
+          •Worked closely with UI/UX designers to transform design mockups into
           pixel-perfect, responsive user interfaces which include Learning
           Management System (LMS) featuring google gemini AI.
         </p>
