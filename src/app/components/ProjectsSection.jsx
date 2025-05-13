@@ -108,6 +108,7 @@ const projectsData = [
       "Learning Management System (LMS) UI featuring google Gemini AI chatbot.Gemini was integrated to enhance user conversation experience",
     highlight: [
       "AI-enhanced user interface with chatbot",
+      "AI-powered  virtual interview",
       "Modular components",
       "Clean, professional LMS layout using Tailwind",
       "Modern frontend architecture for scalability",
