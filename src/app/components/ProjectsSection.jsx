@@ -6,6 +6,30 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Vicel",
+    description:
+      "MERN stack e-commerce for pharmaceutical products featuring admin dashboard, user authentication, payments (Stripe), and product management. ",
+    highlight: [
+      "Cart and order state management with Context API",
+      "JWT-based authentication with protected routes",
+      "Admin panel for product and user management",
+      "Fully responsive UI with modern styling",
+    ],
+    image: "/images/vicel.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://vicel-pharmacy.vercel.app",
+    stack: [
+      "Reactjs",
+      "JavaScript",
+      "Tailwind CSS",
+      "Nodejs",
+      "Expressjs",
+      "Cloudinary",
+      "MongoDB",
+    ],
+  },
+  {
+    id: 2,
     title: "Pingme",
     description:
       "A full-stack MERN chat application powered by Socket.io for seamless real-time messaging. Features secure authentication, online user tracking, instant message delivery, and a smooth user experience.",
@@ -32,30 +56,6 @@ const projectsData = [
       "MongoDB",
     ],
   },
-  {
-    id: 2,
-    title: "Nelpharma",
-    description:
-      "MERN stack e-commerce for pharmaceutical products featuring admin dashboard, user authentication, payments (Stripe), and product management. ",
-    highlight: [
-      "Cart and order state management with Context API",
-      "JWT-based authentication with protected routes",
-      "Admin panel for product and user management",
-      "Fully responsive UI with modern styling",
-    ],
-    image: "/images/nelpharma.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://nelpharmaceuticals.vercel.app/",
-    stack: [
-      "Reactjs",
-      "JavaScript",
-      "Tailwind CSS",
-      "Nodejs",
-      "Expressjs",
-      "Cloudinary",
-      "MongoDB",
-    ],
-  },
 
   {
     id: 3,
@@ -74,7 +74,15 @@ const projectsData = [
     image: "/images/nelpin.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://nelpinterest-app.vercel.app/",
-    stack: ["Reactjs", "CSS3", "JavaScript", "Nodejs","ImageKIt", "Expressjs", "MongoDB"],
+    stack: [
+      "Reactjs",
+      "CSS3",
+      "JavaScript",
+      "Nodejs",
+      "ImageKIt",
+      "Expressjs",
+      "MongoDB",
+    ],
   },
 
   {
