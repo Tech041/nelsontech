@@ -15,7 +15,7 @@ const projectsData = [
       "Admin panel for product and user management",
       "Fully responsive UI with modern styling",
     ],
-    image: "/images/vicel.png",
+    image: "/images/vicel_pharm.png",
     tag: ["All", "Web"],
     gitUrl: "https://vicel-pharmacy.vercel.app",
     stack: [
