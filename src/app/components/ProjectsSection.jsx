@@ -127,9 +127,24 @@ const projectsData = [
 
     stack: ["Reactjs", "JavaScript", "Tailwind CSS", "Gemini API"],
   },
-
   {
     id: 6,
+    title: "Kedi",
+    description:
+      "This is a Landing page for herbal supplement.",
+    highlight: [
+      "Modern UI & Custom Styling",
+      "Very Scalable & Maintainable",
+      "Optimized Performance ",
+    ],
+    image: "/images/kedi.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://kedi-pharma.vercel.app/",
+    stack: ["React", "JavaScript", "Tailwind CSS"],
+  },
+
+  {
+    id: 7,
     title: "Nelfix",
     description:
       "Explore the ultimate movie destination! Powered by the TMDB API, this website offers an extensive library of movies and TV shows, complete with detailed information, trailers, reviews, and ratings.",
