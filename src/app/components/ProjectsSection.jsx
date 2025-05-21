@@ -17,7 +17,7 @@ const projectsData = [
     ],
     image: "/images/vicel_pharm.png",
     tag: ["All", "Web"],
-    gitUrl: "https://vicel-pharmacy.vercel.app",
+    gitUrl: "https://vicel-pharmacy.onrender.com",
     stack: [
       "Reactjs",
       "JavaScript",
